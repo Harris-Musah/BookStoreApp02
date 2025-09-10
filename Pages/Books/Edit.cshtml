@@ -1,0 +1,196 @@
+@page "{id:int}"
+@model BookStoreApp02.Pages.Books.EditModel
+@{
+    ViewData["Title"] = "Edit Book";
+}
+
+<div class="container py-4">
+    <div class="row justify-content-center">
+        <div class="col-12" style="max-width: 600px;">
+            <div class="card shadow-sm">
+                <div class="card-header bg-warning text-dark">
+                    <h2 class="mb-0"><i class="bi bi-pencil-square"></i> Edit Book</h2>
+                </div>
+                <div class="card-body p-4">
+                    <form method="post" enctype="multipart/form-data" id="bookForm">
+                        <input type="hidden" asp-for="Book.Id" />
+                        <div asp-validation-summary="All" class="alert alert-danger" role="alert"></div>
+                        
+                        <div class="row">
+                            <div class="col-md-8">
+                                <!-- Title -->
+                                <div class="mb-3">
+                                    <label asp-for="Book.Title" class="form-label fw-bold">Title *</label>
+                                    <input asp-for="Book.Title" class="form-control form-control-lg" placeholder="Enter book title..." />
+                                    <span asp-validation-for="Book.Title" class="text-danger small"></span>
+                                </div>
+
+                                <!-- Author -->
+                                <div class="mb-3">
+                                    <label asp-for="Book.Author" class="form-label fw-bold">Author *</label>
+                                    <input asp-for="Book.Author" class="form-control form-control-lg" placeholder="Enter author name..." />
+                                    <span asp-validation-for="Book.Author" class="text-danger small"></span>
+                                </div>
+
+                                <!-- Genre -->
+                                <div class="mb-3">
+                                    <label asp-for="Book.Genre" class="form-label fw-bold">Genre *</label>
+                                    <select asp-for="Book.Genre" class="form-select form-select-lg">
+                                        <option value="">Select Genre</option>
+                                        <option value="Classic">Classic</option>
+                                        <option value="Dystopian">Dystopian</option>
+                                        <option value="Fantasy">Fantasy</option>
+                                        <option value="Science Fiction">Science Fiction</option>
+                                        <option value="Non-Fiction">Non-Fiction</option>
+                                        <option value="Romance">Romance</option>
+                                        <option value="Mystery">Mystery</option>
+                                        <option value="Thriller">Thriller</option>
+                                        <option value="Biography">Biography</option>
+                                        <option value="Other">Other</option>
+                                    </select>
+                                    <span asp-validation-for="Book.Genre" class="text-danger small"></span>
+                                </div>
+
+                                <!-- Price -->
+                                <div class="mb-3">
+                                    <label asp-for="Book.Price" class="form-label fw-bold">Price *</label>
+                                    <div class="input-group input-group-lg">
+                                        <span class="input-group-text">$</span>
+                                        <input asp-for="Book.Price" class="form-control" placeholder="0.00" type="number" step="0.01" min="0" />
+                                    </div>
+                                    <span asp-validation-for="Book.Price" class="text-danger small"></span>
+                                </div>
+
+                                <!-- Publish Date -->
+                                <div class="mb-3">
+                                    <label asp-for="Book.PublishDate" class="form-label fw-bold">Publish Date *</label>
+                                    <input asp-for="Book.PublishDate" class="form-control form-control-lg" type="date" />
+                                    <span asp-validation-for="Book.PublishDate" class="text-danger small"></span>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <!-- Cover Image Upload -->
+                                <div class="mb-3">
+                                    <label for="CoverImage" class="form-label fw-bold">Cover Image</label>
+                                    
+                                    @if (!string.IsNullOrEmpty(Model.Book.CoverImagePath))
+                                    {
+                                        <!-- Current Image -->
+                                        <div class="mb-3">
+                                            <p class="text-muted small mb-2">Current Cover:</p>
+                                            <img src="~/uploads/@Model.Book.CoverImagePath" class="img-fluid rounded shadow" style="max-height: 150px;" />
+                                        </div>
+                                    }
+                                    
+                                    <div class="upload-area border-2 border-dashed border-secondary rounded p-4 text-center" 
+                                         id="uploadArea" 
+                                         style="min-height: 120px; cursor: pointer;">
+                                        <i class="bi bi-cloud-upload fs-3 text-muted"></i>
+                                        <p class="mt-2 mb-0 text-muted small">Upload new image<br>or click to browse</p>
+                                        <input type="file" name="CoverImage" id="CoverImage" class="d-none" accept="image/*" />
+                                    </div>
+                                    <div id="imagePreview" class="mt-3 d-none">
+                                        <p class="text-muted small mb-2">New Image Preview:</p>
+                                        <img id="previewImg" class="img-fluid rounded shadow" style="max-height: 150px;" />
+                                        <button type="button" class="btn btn-sm btn-outline-danger mt-2" id="removeImage">
+                                            <i class="bi bi-trash"></i> Remove
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Description -->
+                        <div class="mb-4">
+                            <label asp-for="Book.Description" class="form-label fw-bold">Description</label>
+                            <textarea asp-for="Book.Description" class="form-control" rows="4" 
+                                      placeholder="Enter a brief description of the book..."></textarea>
+                            <span asp-validation-for="Book.Description" class="text-danger small"></span>
+                        </div>
+
+                        <!-- Action Buttons -->
+                        <div class="d-flex gap-2 justify-content-end">
+                            <a asp-page="Index" class="btn btn-secondary btn-lg">
+                                <i class="bi bi-x-circle"></i> Cancel
+                            </a>
+                            <button type="submit" class="btn btn-warning btn-lg">
+                                <i class="bi bi-check-circle"></i> Save Changes
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const uploadArea = document.getElementById('uploadArea');
+    const fileInput = document.getElementById('CoverImage');
+    const imagePreview = document.getElementById('imagePreview');
+    const previewImg = document.getElementById('previewImg');
+    const removeBtn = document.getElementById('removeImage');
+
+    // Click to upload
+    uploadArea.addEventListener('click', () => fileInput.click());
+
+    // Drag and drop
+    uploadArea.addEventListener('dragover', (e) => {
+        e.preventDefault();
+        uploadArea.classList.add('border-primary');
+    });
+
+    uploadArea.addEventListener('dragleave', () => {
+        uploadArea.classList.remove('border-primary');
+    });
+
+    uploadArea.addEventListener('drop', (e) => {
+        e.preventDefault();
+        uploadArea.classList.remove('border-primary');
+        const files = e.dataTransfer.files;
+        if (files.length > 0) {
+            fileInput.files = files;
+            handleFileSelect(files[0]);
+        }
+    });
+
+    // File input change
+    fileInput.addEventListener('change', (e) => {
+        if (e.target.files.length > 0) {
+            handleFileSelect(e.target.files[0]);
+        }
+    });
+
+    // Remove image
+    removeBtn.addEventListener('click', () => {
+        fileInput.value = '';
+        imagePreview.classList.add('d-none');
+        uploadArea.classList.remove('d-none');
+    });
+
+    function handleFileSelect(file) {
+        if (file.type.startsWith('image/')) {
+            const reader = new FileReader();
+            reader.onload = (e) => {
+                previewImg.src = e.target.result;
+                imagePreview.classList.remove('d-none');
+                uploadArea.classList.add('d-none');
+            };
+            reader.readAsDataURL(file);
+        }
+    }
+});
+</script>
+
+<style>
+.border-dashed {
+    border-style: dashed !important;
+}
+
+.upload-area:hover {
+    background-color: #f8f9fa;
+    border-color: #007bff !important;
+}
+</style>

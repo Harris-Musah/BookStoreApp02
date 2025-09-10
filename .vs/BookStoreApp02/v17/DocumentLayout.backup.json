@@ -1,0 +1,278 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\Documents\\School\\Lvl 300 class\\Csharp\\SRI.41.008.093.22\\BookStoreApp02\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F541BB89-82BB-443E-8E11-651266C8388F}|BookStoreApp02.csproj|c:\\users\\dell\\documents\\school\\lvl 300 class\\csharp\\sri.41.008.093.22\\bookstoreapp02\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F541BB89-82BB-443E-8E11-651266C8388F}|BookStoreApp02.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F541BB89-82BB-443E-8E11-651266C8388F}|BookStoreApp02.csproj|c:\\users\\dell\\documents\\school\\lvl 300 class\\csharp\\sri.41.008.093.22\\bookstoreapp02\\pages\\books\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F541BB89-82BB-443E-8E11-651266C8388F}|BookStoreApp02.csproj|solutionrelative:pages\\books\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F541BB89-82BB-443E-8E11-651266C8388F}|BookStoreApp02.csproj|c:\\users\\dell\\documents\\school\\lvl 300 class\\csharp\\sri.41.008.093.22\\bookstoreapp02\\pages\\books\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F541BB89-82BB-443E-8E11-651266C8388F}|BookStoreApp02.csproj|solutionrelative:pages\\books\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F541BB89-82BB-443E-8E11-651266C8388F}|BookStoreApp02.csproj|c:\\users\\dell\\documents\\school\\lvl 300 class\\csharp\\sri.41.008.093.22\\bookstoreapp02\\pages\\books\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F541BB89-82BB-443E-8E11-651266C8388F}|BookStoreApp02.csproj|solutionrelative:pages\\books\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F541BB89-82BB-443E-8E11-651266C8388F}|BookStoreApp02.csproj|c:\\users\\dell\\documents\\school\\lvl 300 class\\csharp\\sri.41.008.093.22\\bookstoreapp02\\pages\\admin\\managebooks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F541BB89-82BB-443E-8E11-651266C8388F}|BookStoreApp02.csproj|solutionrelative:pages\\admin\\managebooks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F541BB89-82BB-443E-8E11-651266C8388F}|BookStoreApp02.csproj|c:\\users\\dell\\documents\\school\\lvl 300 class\\csharp\\sri.41.008.093.22\\bookstoreapp02\\pages\\books\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F541BB89-82BB-443E-8E11-651266C8388F}|BookStoreApp02.csproj|solutionrelative:pages\\books\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F541BB89-82BB-443E-8E11-651266C8388F}|BookStoreApp02.csproj|c:\\users\\dell\\documents\\school\\lvl 300 class\\csharp\\sri.41.008.093.22\\bookstoreapp02\\pages\\books\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F541BB89-82BB-443E-8E11-651266C8388F}|BookStoreApp02.csproj|solutionrelative:pages\\books\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F541BB89-82BB-443E-8E11-651266C8388F}|BookStoreApp02.csproj|c:\\users\\dell\\documents\\school\\lvl 300 class\\csharp\\sri.41.008.093.22\\bookstoreapp02\\bookstorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F541BB89-82BB-443E-8E11-651266C8388F}|BookStoreApp02.csproj|solutionrelative:bookstorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F541BB89-82BB-443E-8E11-651266C8388F}|BookStoreApp02.csproj|c:\\users\\dell\\documents\\school\\lvl 300 class\\csharp\\sri.41.008.093.22\\bookstoreapp02\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F541BB89-82BB-443E-8E11-651266C8388F}|BookStoreApp02.csproj|solutionrelative:book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F541BB89-82BB-443E-8E11-651266C8388F}|BookStoreApp02.csproj|c:\\users\\dell\\documents\\school\\lvl 300 class\\csharp\\sri.41.008.093.22\\bookstoreapp02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F541BB89-82BB-443E-8E11-651266C8388F}|BookStoreApp02.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F541BB89-82BB-443E-8E11-651266C8388F}|BookStoreApp02.csproj|c:\\users\\dell\\documents\\school\\lvl 300 class\\csharp\\sri.41.008.093.22\\bookstoreapp02\\pages\\books\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F541BB89-82BB-443E-8E11-651266C8388F}|BookStoreApp02.csproj|solutionrelative:pages\\books\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F541BB89-82BB-443E-8E11-651266C8388F}|BookStoreApp02.csproj|c:\\users\\dell\\documents\\school\\lvl 300 class\\csharp\\sri.41.008.093.22\\bookstoreapp02\\pages\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F541BB89-82BB-443E-8E11-651266C8388F}|BookStoreApp02.csproj|solutionrelative:pages\\books\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F541BB89-82BB-443E-8E11-651266C8388F}|BookStoreApp02.csproj|c:\\users\\dell\\documents\\school\\lvl 300 class\\csharp\\sri.41.008.093.22\\bookstoreapp02\\pages\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F541BB89-82BB-443E-8E11-651266C8388F}|BookStoreApp02.csproj|solutionrelative:pages\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F541BB89-82BB-443E-8E11-651266C8388F}|BookStoreApp02.csproj|c:\\users\\dell\\documents\\school\\lvl 300 class\\csharp\\sri.41.008.093.22\\bookstoreapp02\\pages\\books\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F541BB89-82BB-443E-8E11-651266C8388F}|BookStoreApp02.csproj|solutionrelative:pages\\books\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F541BB89-82BB-443E-8E11-651266C8388F}|BookStoreApp02.csproj|c:\\users\\dell\\documents\\school\\lvl 300 class\\csharp\\sri.41.008.093.22\\bookstoreapp02\\pages\\books\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F541BB89-82BB-443E-8E11-651266C8388F}|BookStoreApp02.csproj|solutionrelative:pages\\books\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F541BB89-82BB-443E-8E11-651266C8388F}|BookStoreApp02.csproj|c:\\users\\dell\\documents\\school\\lvl 300 class\\csharp\\sri.41.008.093.22\\bookstoreapp02\\pages\\books\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F541BB89-82BB-443E-8E11-651266C8388F}|BookStoreApp02.csproj|solutionrelative:pages\\books\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ManageBooks.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\School\\Lvl 300 class\\Csharp\\SRI.41.008.093.22\\BookStoreApp02\\Pages\\Admin\\ManageBooks.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Admin\\ManageBooks.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\School\\Lvl 300 class\\Csharp\\SRI.41.008.093.22\\BookStoreApp02\\Pages\\Admin\\ManageBooks.cshtml",
+              "RelativeToolTip": "Pages\\Admin\\ManageBooks.cshtml",
+              "ViewState": "AgIAAFgAAAAAppmZmZkOwGIAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-21T13:43:45.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\School\\Lvl 300 class\\Csharp\\SRI.41.008.093.22\\BookStoreApp02\\Pages\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\School\\Lvl 300 class\\Csharp\\SRI.41.008.093.22\\BookStoreApp02\\Pages\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAoAAACAMjMzMzMbwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-29T15:37:25.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\School\\Lvl 300 class\\Csharp\\SRI.41.008.093.22\\BookStoreApp02\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\School\\Lvl 300 class\\Csharp\\SRI.41.008.093.22\\BookStoreApp02\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABEAAACAOTMzMzMrwBUAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-29T15:27:35.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Delete.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\School\\Lvl 300 class\\Csharp\\SRI.41.008.093.22\\BookStoreApp02\\Pages\\Books\\Delete.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Books\\Delete.cshtml.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\School\\Lvl 300 class\\Csharp\\SRI.41.008.093.22\\BookStoreApp02\\Pages\\Books\\Delete.cshtml.cs",
+              "RelativeToolTip": "Pages\\Books\\Delete.cshtml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAABQvSMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T15:20:39.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\School\\Lvl 300 class\\Csharp\\SRI.41.008.093.22\\BookStoreApp02\\Pages\\Books\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Books\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\School\\Lvl 300 class\\Csharp\\SRI.41.008.093.22\\BookStoreApp02\\Pages\\Books\\Delete.cshtml",
+              "RelativeToolTip": "Pages\\Books\\Delete.cshtml",
+              "ViewState": "AgIAAAYAAABAMjMzMzMrwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-29T15:20:31.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\School\\Lvl 300 class\\Csharp\\SRI.41.008.093.22\\BookStoreApp02\\Pages\\Books\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Books\\Edit.cshtml.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\School\\Lvl 300 class\\Csharp\\SRI.41.008.093.22\\BookStoreApp02\\Pages\\Books\\Edit.cshtml.cs",
+              "RelativeToolTip": "Pages\\Books\\Edit.cshtml.cs",
+              "ViewState": "AgIAACsAAAAAEDMzMzPbvz4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T15:20:19.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\School\\Lvl 300 class\\Csharp\\SRI.41.008.093.22\\BookStoreApp02\\Pages\\Books\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Books\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\School\\Lvl 300 class\\Csharp\\SRI.41.008.093.22\\BookStoreApp02\\Pages\\Books\\Edit.cshtml",
+              "RelativeToolTip": "Pages\\Books\\Edit.cshtml",
+              "ViewState": "AgIAADQAAAAAAAAAAADgvz0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-29T15:20:08.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\School\\Lvl 300 class\\Csharp\\SRI.41.008.093.22\\BookStoreApp02\\Pages\\Books\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Books\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\School\\Lvl 300 class\\Csharp\\SRI.41.008.093.22\\BookStoreApp02\\Pages\\Books\\Create.cshtml.cs",
+              "RelativeToolTip": "Pages\\Books\\Create.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T15:19:50.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\School\\Lvl 300 class\\Csharp\\SRI.41.008.093.22\\BookStoreApp02\\Pages\\Books\\Create.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Books\\Create.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\School\\Lvl 300 class\\Csharp\\SRI.41.008.093.22\\BookStoreApp02\\Pages\\Books\\Create.cshtml",
+              "RelativeToolTip": "Pages\\Books\\Create.cshtml",
+              "ViewState": "AgIAAIwAAAAgl5mZmVkqwKQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-29T15:19:40.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\School\\Lvl 300 class\\Csharp\\SRI.41.008.093.22\\BookStoreApp02\\Pages\\Books\\Details.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Books\\Details.cshtml.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\School\\Lvl 300 class\\Csharp\\SRI.41.008.093.22\\BookStoreApp02\\Pages\\Books\\Details.cshtml.cs",
+              "RelativeToolTip": "Pages\\Books\\Details.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T15:19:27.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\School\\Lvl 300 class\\Csharp\\SRI.41.008.093.22\\BookStoreApp02\\Pages\\Books\\Details.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Books\\Details.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\School\\Lvl 300 class\\Csharp\\SRI.41.008.093.22\\BookStoreApp02\\Pages\\Books\\Details.cshtml",
+              "RelativeToolTip": "Pages\\Books\\Details.cshtml",
+              "ViewState": "AgIAABoAAACAMjMzM5MwwBwAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-29T15:19:21.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\School\\Lvl 300 class\\Csharp\\SRI.41.008.093.22\\BookStoreApp02\\Pages\\Books\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Books\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\School\\Lvl 300 class\\Csharp\\SRI.41.008.093.22\\BookStoreApp02\\Pages\\Books\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\Books\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T15:19:06.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\School\\Lvl 300 class\\Csharp\\SRI.41.008.093.22\\BookStoreApp02\\Pages\\Books\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Books\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\School\\Lvl 300 class\\Csharp\\SRI.41.008.093.22\\BookStoreApp02\\Pages\\Books\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Books\\Index.cshtml",
+              "ViewState": "AgIAADIAAACAXmZmZiYgwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-29T15:18:52.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BookStoreContext.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\School\\Lvl 300 class\\Csharp\\SRI.41.008.093.22\\BookStoreApp02\\BookStoreContext.cs",
+              "RelativeDocumentMoniker": "BookStoreContext.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\School\\Lvl 300 class\\Csharp\\SRI.41.008.093.22\\BookStoreApp02\\BookStoreContext.cs",
+              "RelativeToolTip": "BookStoreContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T17:39:53.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\School\\Lvl 300 class\\Csharp\\SRI.41.008.093.22\\BookStoreApp02\\Book.cs",
+              "RelativeDocumentMoniker": "Book.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\School\\Lvl 300 class\\Csharp\\SRI.41.008.093.22\\BookStoreApp02\\Book.cs",
+              "RelativeToolTip": "Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T17:39:43.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\School\\Lvl 300 class\\Csharp\\SRI.41.008.093.22\\BookStoreApp02\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\School\\Lvl 300 class\\Csharp\\SRI.41.008.093.22\\BookStoreApp02\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABIAAAAAmpmZmRkWwFgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T17:34:31.504Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

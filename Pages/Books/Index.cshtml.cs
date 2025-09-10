@@ -1,0 +1,42 @@
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+
+namespace BookStoreApp02.Pages.Books
+{
+    public class IndexModel : PageModel
+    {
+        private readonly BookStoreContext _context;
+        public IndexModel(BookStoreContext context)
+        {
+            _context = context;
+        }
+
+        public IList<Book> Books { get; set; } = new List<Book>();
+        public List<string> Genres { get; set; } = new List<string>();
+        [BindProperty(SupportsGet = true)]
+        public string? SearchString { get; set; }
+        [BindProperty(SupportsGet = true)]
+        public string? Genre { get; set; }
+
+        public async Task OnGetAsync()
+        {
+            var genreQuery = _context.Books.Select(b => b.Genre).Distinct().OrderBy(g => g);
+            Genres = await genreQuery.Where(g => !string.IsNullOrEmpty(g)).ToListAsync();
+
+            var books = _context.Books.AsQueryable();
+            if (!string.IsNullOrEmpty(SearchString))
+            {
+                books = books.Where(b => b.Title.Contains(SearchString) || b.Author.Contains(SearchString) || b.Genre.Contains(SearchString));
+            }
+            if (!string.IsNullOrEmpty(Genre))
+            {
+                books = books.Where(b => b.Genre == Genre);
+            }
+            Books = await books.OrderBy(b => b.Title).ToListAsync();
+        }
+    }
+}

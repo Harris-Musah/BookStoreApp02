@@ -1,0 +1,58 @@
+﻿@page
+@model Books.IndexModel
+@{
+    ViewData["Title"] = "Book Catalog";
+}
+
+<h1>Book Catalog</h1>
+
+<form method="get" class="mb-3">
+    <div class="row g-2 align-items-end">
+        <div class="col-md-4">
+            <input type="text" name="SearchString" value="@Model.SearchString" class="form-control" placeholder="Search by title, author, or genre" />
+        </div>
+        <div class="col-md-3">
+            <select name="Genre" class="form-select">
+                <option value="">All Genres</option>
+                @foreach (var genre in Model.Genres)
+                {
+                    <option value="@genre" @(Model.Genre == genre ? "selected" : "")>@genre</option>
+                }
+            </select>
+        </div>
+        <div class="col-md-2">
+            <button type="submit" class="btn btn-primary">Search</button>
+        </div>
+    </div>
+</form>
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    @foreach (var book in Model.Books)
+    {
+        <div class="col">
+            <div class="card h-100">
+                @if (!string.IsNullOrEmpty(book.CoverImagePath))
+                {
+                    <img src="~/uploads/@book.CoverImagePath" class="card-img-top" alt="@book.Title cover" style="height: 250px; object-fit: cover;" />
+                }
+                <div class="card-body">
+                    <h5 class="card-title">@book.Title</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">@book.Author</h6>
+                    <p class="card-text">@book.Genre</p>
+                    <p class="card-text">@book.PublishDate.ToShortDateString()</p>
+                    <p class="card-text">@book.Price.ToString("C")</p>
+                    <a asp-page="Details" asp-route-id="@book.Id" class="btn btn-outline-primary btn-sm">Details</a>
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <a asp-page="Edit" asp-route-id="@book.Id" class="btn btn-outline-secondary btn-sm">Edit</a>
+                        <a asp-page="Delete" asp-route-id="@book.Id" class="btn btn-outline-danger btn-sm">Delete</a>
+                    }
+                </div>
+            </div>
+        </div>
+    }
+</div>
+@if (User.IsInRole("Admin"))
+{
+    <a asp-page="Create" class="btn btn-success mt-4">Add New Book</a>
+}

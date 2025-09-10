@@ -1,0 +1,51 @@
+﻿@page "{id:int}"
+@model Books.EditModel
+@{
+    ViewData["Title"] = "Edit Book";
+}
+
+<h1>Edit Book</h1>
+<form method="post" enctype="multipart/form-data">
+    <input type="hidden" asp-for="Book.Id" />
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="mb-3">
+        <label asp-for="Book.Title" class="form-label"></label>
+        <input asp-for="Book.Title" class="form-control" />
+        <span asp-validation-for="Book.Title" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Book.Author" class="form-label"></label>
+        <input asp-for="Book.Author" class="form-control" />
+        <span asp-validation-for="Book.Author" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Book.Price" class="form-label"></label>
+        <input asp-for="Book.Price" class="form-control" />
+        <span asp-validation-for="Book.Price" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Book.Genre" class="form-label"></label>
+        <input asp-for="Book.Genre" class="form-control" />
+        <span asp-validation-for="Book.Genre" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Book.PublishDate" class="form-label"></label>
+        <input asp-for="Book.PublishDate" class="form-control" type="date" />
+        <span asp-validation-for="Book.PublishDate" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Book.Description" class="form-label"></label>
+        <textarea asp-for="Book.Description" class="form-control"></textarea>
+        <span asp-validation-for="Book.Description" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label for="CoverImage" class="form-label">Cover Image</label>
+        <input type="file" name="CoverImage" class="form-control" />
+        @if (!string.IsNullOrEmpty(Model.Book.CoverImagePath))
+        {
+            <img src="~/uploads/@Model.Book.CoverImagePath" class="img-thumbnail mt-2" style="max-height:150px;" />
+        }
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a asp-page="Index" class="btn btn-secondary">Cancel</a>
+</form>
