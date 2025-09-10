@@ -4683,7 +4683,6 @@ C:\Users\DELL\Documents\School\Lvl 300 class\Csharp\SRI.41.008.093.22\BookStoreA
 C:\Users\DELL\Documents\School\Lvl 300 class\Csharp\SRI.41.008.093.22\BookStoreApp02\obj\Debug\net9.0\staticwebassets.build.json.cache
 C:\Users\DELL\Documents\School\Lvl 300 class\Csharp\SRI.41.008.093.22\BookStoreApp02\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\DELL\Documents\School\Lvl 300 class\Csharp\SRI.41.008.093.22\BookStoreApp02\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-C:\Users\DELL\Documents\School\Lvl 300 class\Csharp\SRI.41.008.093.22\BookStoreApp02\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\DELL\Documents\School\Lvl 300 class\Csharp\SRI.41.008.093.22\BookStoreApp02\obj\Debug\net9.0\BookStor.6D542FD6.Up2Date
 C:\Users\DELL\Documents\School\Lvl 300 class\Csharp\SRI.41.008.093.22\BookStoreApp02\obj\Debug\net9.0\BookStoreApp02.dll
 C:\Users\DELL\Documents\School\Lvl 300 class\Csharp\SRI.41.008.093.22\BookStoreApp02\obj\Debug\net9.0\refint\BookStoreApp02.dll
